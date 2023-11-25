@@ -221,14 +221,6 @@ Siapkan konfigurasi topologi dan setup seperti diatas.
 
 Selanjutnya menambahkan register domain berupa riegel.canyon.a13.com untuk Laravel Worker dan granz.channel.a13.com untuk PHP Worker yang mengarah pada worker dengan IP 192.175.x.1. 
 
-Karena pada konfigurasi topologi sebelumnya seluruh worker sudah menggunakan DHCP, maka modifikasi sedikit pada node Lugner dan Fern seperti dibawah ini
-- Lugner ( PHP Worker )
-  ```bash
-  
-  ```
-- Fern ( Laravel Worker )
-  ```bash
-  ```
 Selanjutnya pada DNS Server (Heiter), jalankan command dibawah ini
 - Heiter ( DNS Server )
   ```bash
@@ -297,9 +289,10 @@ Selanjutnya pada DNS Server (Heiter), jalankan command dibawah ini
   
 Output
 
-![image](https://github.com/RuleLuluDamara/Jarkom-Modul-3-A13-2023/assets/105763198/b9cddbaa-0417-49c0-b196-fe938b3d2e3f)
+![Screenshot 2023-11-25 191928](https://github.com/RuleLuluDamara/Jarkom-Modul-3-A13-2023/assets/105763198/e0e99e10-29a6-4dc3-883a-5c72215aa488)
 
-![image](https://github.com/RuleLuluDamara/Jarkom-Modul-3-A13-2023/assets/105763198/e4452210-3f35-4e9a-9cdf-518ee8a3becc)
+![Screenshot 2023-11-25 192234](https://github.com/RuleLuluDamara/Jarkom-Modul-3-A13-2023/assets/105763198/1e686016-db40-49b4-b445-5cdcde766ab6)
+
 
 ## SOAL 2
 ```text
